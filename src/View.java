@@ -41,8 +41,10 @@ class View extends JPanel{
 		
 		
 		try {
-			this.black_chess = ImageIO.read(new File("D:/EclipseWorkspace/Game_Gobang/bin/black.png"));
-			this.white_chess = ImageIO.read(new File("D:/EclipseWorkspace/Game_Gobang/bin/white.png"));
+			// this.black_chess = ImageIO.read(new File("D:/EclipseWorkspace/Game_Gobang/bin/black.png"));
+			// this.white_chess = ImageIO.read(new File("D:/EclipseWorkspace/Game_Gobang/bin/white.png"));
+			this.black_chess = ImageIO.read(new File("black.png"));
+			this.white_chess = ImageIO.read(new File("white.png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
